@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  display: flex;
+}
+
+.header-container {
+  width: 100%;
+}
+
+header h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+header p {
+  text-align: center;
+}
+#download {
+  color: aquamarine;
+  font-size: 16px;
+}
+
+.vid-container {
+  display: flex;
+  width: 100%;
+  /* background: orange; */
+  justify-content: center;
+  align-items: center;
+}
+.vid-container video {
+  width: fit-content;
+}
+
+.guide-container {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+}
+
+.guide-container h1,
+p {
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.img-container img {
+  min-width: 300px;
+  height: auto;
+}
+
+.ads {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.img-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ads h1 {
+  text-align: center;
+}
+
+#copyright {
+  text-align: right;
+  color: gray;
+}
